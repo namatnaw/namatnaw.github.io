@@ -156,7 +156,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://namatnaw.github.io/2021/04/22/210422%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86C/">
+    <link itemprop="mainEntityOfPage" href="http://namatnaw.github.io/2021/04/26/210426JAVA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/805quntou.gif">
@@ -170,7 +170,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/04/22/210422%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86C/" class="post-title-link" itemprop="url">210422大学物理C</a>
+            <a href="/2021/04/26/210426JAVA/" class="post-title-link" itemprop="url">210426JAVA</a>
         </h2>
 
         <div class="post-meta">
@@ -180,14 +180,14 @@
               </span>
               <span class="post-meta-item-text">作业发布于</span>
 
-              <time title="创建时间：2021-04-22 17:11:00" itemprop="dateCreated datePublished" datetime="2021-04-22T17:11:00+08:00">2021-04-22</time>
+              <time title="创建时间：2021-04-26 11:34:26" itemprop="dateCreated datePublished" datetime="2021-04-26T11:34:26+08:00">2021-04-26</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">作业截至于</span>
-                <time title="修改时间：2021-04-25 23:59:00" itemprop="dateModified" datetime="2021-04-25T23:59:00+08:00">2021-04-25</time>
+                <time title="修改时间：2021-05-10 00:00:00" itemprop="dateModified" datetime="2021-05-10T00:00:00+08:00">2021-05-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -195,7 +195,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86C/" itemprop="url" rel="index"><span itemprop="name">大学物理C</span></a>
+                  <a href="/categories/JAVA/" itemprop="url" rel="index"><span itemprop="name">JAVA</span></a>
                 </span>
             </span>
 
@@ -210,15 +210,17 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <img src="/2021/04/22/210422%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86C/a.png" class title="a">
+          <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//DataSet.java</span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    Computes the average of a set of data values.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"> <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DataSet</span></span></span><br><span class="line"><span class="class"> </span>&#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">       Constructs an empty data set.</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">DataSet</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">       sum = <span class="number">0</span>;</span><br><span class="line">       count = <span class="number">0</span>;</span><br><span class="line">       maximum = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">       Adds a data value to the data set</span></span><br><span class="line"><span class="comment">       <span class="doctag">@param</span> x a data value</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(<span class="keyword">double</span> x)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">       sum = sum + x;</span><br><span class="line">       <span class="keyword">if</span> (count == <span class="number">0</span> || maximum &lt; x) maximum = x;</span><br><span class="line">       count++;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">       Gets the average of the added data.</span></span><br><span class="line"><span class="comment">       <span class="doctag">@return</span> the average or 0 if no data has been added</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">getAverage</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">       <span class="keyword">if</span> (count == <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">       <span class="keyword">else</span> <span class="keyword">return</span> sum / count;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">       Gets the largest of the added data.</span></span><br><span class="line"><span class="comment">       <span class="doctag">@return</span> the maximum or 0 if no data has been added</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">getMaximum</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">       <span class="keyword">return</span> maximum;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">double</span> sum;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">double</span> maximum;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> count;</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<img src="/2021/04/22/210422%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86C/aa.png" class title="a">
-
-<img src="/2021/04/22/210422%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86C/aaa.png" class title="a">
-
-<img src="/2021/04/22/210422%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86C/aaaa.png" class title="a">
-
-<p>提交到课堂派</p>
+<p>仔细阅读DataSet.java，该类实现了如下功能：</p>
+<p>1． 通过add(…)接收一组double类型数据；</p>
+<p>2． 通过getAverage()返回接收到的所有数据的平均值；</p>
+<p>3． 通过getMaximum()返回接收到的所有数据中最大的一个；</p>
+<p>利用接口技术改写此程序，扩展程序功能，要求改写后程序能够实现</p>
+<p>1． 通过add(…)接收一些自定义的类的对象；（提示：这些类实现了某个接口，而这个接口中的某个方法返回了类的测量值）；</p>
+<p>2． 通过getAverage()返回接收到的所有对象测量值的平均值；</p>
+<p>3． 通过getMaximum()返回接收到的所有对象测量值最大的一个对象；</p>
+<p>并用改写后的DataSet类，接收一组Human/Student对象，输出这一组对象的平均值，和其中测量值最大的一个对象。</p>
 
       
     </div>
@@ -237,7 +239,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/19/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><span class="page-number current">20</span><a class="page-number" href="/page/21/">21</a><span class="space">&hellip;</span><a class="page-number" href="/page/37/">37</a><a class="extend next" rel="next" href="/page/21/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/page/19/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><span class="page-number current">20</span><a class="page-number" href="/page/21/">21</a><span class="space">&hellip;</span><a class="page-number" href="/page/38/">38</a><a class="extend next" rel="next" href="/page/21/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -305,7 +307,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">37</span>
+          <span class="site-state-item-count">38</span>
           <span class="site-state-item-name">作业</span>
         </a>
       </div>
